@@ -1,0 +1,18 @@
+[01/25/2011 13:29:07] Success	Patch started: F:\d2d64_90_905.exe
+[01/25/2011 13:29:07] Notice	Patch engine version: 2.0.4.0
+[01/25/2011 13:29:07] Notice	Product: Drag-to-Disc 64 Vista.
+[01/25/2011 13:29:07] Success	Language set: Primary = 9, Secondary = 1
+[01/25/2011 13:29:07] Success	Include script: _Global_Functions.lua
+[01/25/2011 13:29:07] Notice	Start project event: Global Functions
+[01/25/2011 13:29:07] Success	Run project event: Global Functions
+[01/25/2011 13:29:07] Notice	Start project event: On Startup
+[01/25/2011 13:29:07] Success	Language set: Primary = 9, Secondary = 1
+[01/25/2011 13:29:07] Error	Script: On Startup, Line 34 (1013)
+[01/25/2011 13:29:07] Success	Located installed version 6.4.9.0: C:\Users\ADMINI~1\AppData\Local\Temp\_ir_vp2_temp_0\drivers
+[01/25/2011 13:29:07] Success	Run project event: On Startup
+[01/25/2011 13:29:07] Success	Display screen: Ready to Patch
+[01/25/2011 13:29:09] Notice	Start project event: On Pre Patch
+[01/25/2011 13:29:09] Success	Run project event: On Pre Patch
+[01/25/2011 13:29:09] Success	Display screen: One Progress Bar (While Patching)
+[01/25/2011 13:29:09] Success	Free space check on drive: C:\
+[01/25/2011 13:29:19] Success	Patch file: C:\Users\ADMINI~1\AppData\Local\Temp\_ir_vp2_temp_0\drivers\D2D3264_90_905.txt
