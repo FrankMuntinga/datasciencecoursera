@@ -1,0 +1,33 @@
+---
+title: "README_run_analysis"
+author: "Frank Muntinga"
+date: "Saturday, January 24, 2015"
+output: html_document
+---
+
+### General
+The script contains the complete flow from extracting from the Web till writing down a local .txt file.
+It is based on a working directory put on the C-share (c:\work), this has to be reconfigured if not available on your personal device.
+
+The code in the script is rather basic. It is not optimized due to timing-issues considering the deadline of the 25th of Januari.
+Actually I preferred functionalityas demanded more than optimalization. This planned for next week.
+
+### Structure of run_analysis.R
+
+All R-coding for run_analysis is put in one script: run_analysis.R
+Basically the setup of the script follows the guidelline from the Course assignment, but there are some slight differences stated below.
+
+* Get the data from the Web, unzip and store it in a working directory.
+* Create dataframes for all the files needed in the analysis.
+* Merge the training_x and the test_x sets to create one data set by using RBIND.
+* Extract only the measurements on the mean and standard deviation for each measurement.
+* Appropriately labels the data set with descriptive variable names.
+* Merge the combined traing-test_x set to the subjects by using CBIND and modify lables to proper ones.
+* Join the activity-labels by using a MERGE and modify lables to proper ones.
+* Install package dplyr
+* Create a summarized dataset by creating group-variable on activity&subject and use SUMMARISE_EACH with function MEAN 
+  to apply this  grouping to the input-datafame and create a new tidy dataset.
+* Write the tidy dataset (output) as well as the original dataset (input) to a local file.
+
+
+
