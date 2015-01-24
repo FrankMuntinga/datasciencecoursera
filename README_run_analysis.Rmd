@@ -7,14 +7,12 @@ output: html_document
 
 ### General
 The script contains the complete flow from extracting from the Web till writing down a local .txt file.
-It is based on a working directory put on the C-share (c:\work), this has to be reconfigured if not available on your personal device.
-
-The code in the script is rather basic. It is not optimized due to timing-issues considering the deadline of the 25th of Januari.
-Actually I preferred functionalityas demanded more than optimalization. This planned for next week.
+It is based on a working directory put on the C-share (c:\work) on a Windows7 PC, this has to be reconfigured if not available on your personal device.
 
 ### Structure of run_analysis.R
 
-All R-coding for run_analysis is put in one script: run_analysis.R
+All R-coding for run_analysis is put in one script: run_analysis.R.
+
 Basically the setup of the script follows the guidelline from the Course assignment, but there are some slight differences stated below.
 
 * Get the data from the Web, unzip and store it in a working directory.
@@ -29,5 +27,8 @@ Basically the setup of the script follows the guidelline from the Course assignm
   to apply this  grouping to the input-datafame and create a new tidy dataset.
 * Write the tidy dataset (output) as well as the original dataset (input) to a local file.
 
+## Consideration
+The code in the script is rather basic. It is not optimized due to timing-issues considering the deadline of the 25th of Januari.
+Actually I preferred functionalityas demanded more than optimalization. This planned for next week.
 
 
