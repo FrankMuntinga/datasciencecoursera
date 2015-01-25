@@ -7,8 +7,8 @@ output: html_document
 
 ## Activity
 
-1)Activity.id        		Identifier of the Activity which was measured
-2)Activity			Description of the actvity which was measured
+1. Activity.id        		Identifier of the Activity which was measured
+2. Activity			Description of the actvity which was measured
 
 ID 1 =	WALKING
 ID 2 =	WALKING_UPSTAIRS
@@ -18,85 +18,85 @@ ID 5 = 	STANDING
 ID 6 = 	LAYING
 
 ## Subject
-1) Subject 		Identifier of the person from whom's mobile phone data was collected during the test of train measurements.
+1. Subject 		Identifier of the person from whom's mobile phone data was collected during the test of train measurements.
 
 ## Measurements
  
- 1) BodyAcc.mean...X 		Mean value body accelerometer raw time signals X-axis
- 2) BodyAcc.mean...Y 		Mean value body accelerometer raw time signals Y-axis
- 3) BodyAcc.mean...Z 		Mean value body accelerometer raw time signals Z-axis
- 4) GravityAcc.mean...X 	Mean value gravity accelerometer raw time signals X-axis
- 5) GravityAcc.mean...Y         Mean value gravity accelerometer raw time signals Y-axis
- 6) GravityAcc.mean...Z         Mean value gravity accelerometer raw time signals Z-axis
- 7) BodyAccJerk.mean...X 	Mean value body accelerometer jerk time signals X-axis
- 8) BodyAccJerk.mean...Y 	Mean value body accelerometer jerk time signals X-axis
- 9) BodyAccJerk.mean...Z 	Mean value body accelerometer jerk time signals X-axis
- 10) BodyGyro.mean...X 		Mean value body gyroscope time signals X-axis
- 11) BodyGyro.mean...Y 		Mean value body gyroscope time signals Y-axis
- 12) BodyGyro.mean...Z 		Mean value body gyroscope time signals Z-axis
- 13) BodyGyroJerk.mean...X 	Mean value body gyroscope jerk time signals X-axis
- 14) BodyGyroJerk.mean...Y       Mean value body gyroscope jerk time signals Y-axis
- 15) BodyGyroJerk.mean...Z       Mean value body gyroscope jerk time signals Z-axis
- 16) BodyAccMag.mean.. 		Mean value body accelerometer magnitude of 3-dimensional time signals using Euclidian norm
- 17) GravityAccMag.mean.. 	Mean value gravity accelerometer magnitude of 3-dimensional time signals using Euclidian norm
- 18) BodyAccJerkMag.mean.. 	Mean value body accelerometer magnitude of 3-dimensional jerk time signals using Euclidian norm		
- 19) BodyGyroMag.mean.. 		Mean value body gyroscope magnitude of 3-dimensional time signals using Euclidian norm
- 20) BodyGyroJerkMag.mean.. 	Mean value body gyroscope magnitude of 3-dimensional jerk time signals using Euclidian norm
- 21) BodyAcc.mean...X.1 		Mean value body accelerometer raw Fast Fourier Transform (FFT) signals X-axis
- 22) BodyAcc.mean...Y.1          Mean value body accelerometer raw Fast Fourier Transform (FFT) signals Y-axis
- 23) BodyAcc.mean...Z.1          Mean value body accelerometer raw Fast Fourier Transform (FFT) signals Z-axis
- 24) BodyAcc.meanFreq...X 	Mean fequency body accelerometer raw FFT signals X-axis
- 25) BodyAcc.meanFreq...Y 	Mean fequency body accelerometer raw FFT signals Y-axis
- 26) BodyAcc.meanFreq...Z 	Mean fequency body accelerometer raw FFT signals Z-axis
- 27) BodyAccJerk.mean...X.1 	Mean value body accelerometer jerk FFT signals X-axis
- 28) BodyAccJerk.mean...Y.1      Mean value body accelerometer jerk FFT signals X-axis
- 29) BodyAccJerk.mean...Z.1     	Mean value body accelerometer jerk FFT signals X-axis
- 30) BodyAccJerk.meanFreq...X 	Mean fequency body accelerometer raw jerk FFT signals X-axis
- 31) BodyAccJerk.meanFreq...Y    Mean fequency body accelerometer raw jerk FFT signals Y-axis
- 32) BodyAccJerk.meanFreq...Z    Mean fequency body accelerometer raw jerk FFT signals Z-axis
- 33) BodyGyro.mean...X.1 	Mean value body gyroscope FFT signals X-axis
- 34) BodyGyro.mean...Y.1        	Mean value body gyroscope FFT signals Y-axis
- 35) BodyGyro.mean...Z.1        	Mean value body gyroscope FFT signals Z-axis
- 36) BodyGyro.meanFreq...X 	Mean fequency body gyroscope raw FFT signals X-axis
- 37) BodyGyro.meanFreq...Y       Mean fequency body gyroscope raw FFT signals Y-axis
- 38) BodyGyro.meanFreq...Z       Mean fequency body gyroscope raw FFT signals Z-axis
- 39) BodyAccMag.mean...1 	Mean value body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
- 40) BodyAccMag.meanFreq.. 	Mean frequency body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
- 41) BodyBodyAccJerkMag.mean.. 	Mean value body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm
- 42) BodyBodyAccJerkMag.meanFreq.. Mean frequency body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm
- 43) BodyBodyGyroMag.mean.. 	Mean value body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
- 44) BodyBodyGyroMag.meanFreq..  Mean frequency body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
- 45) BodyBodyGyroJerkMag.mean..  Mean value body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm
- 46) BodyBodyGyroJerkMag.meanFreq. Mean frequency body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm.. 
- 47) BodyAcc.std...X 		Standard deviation body accelerometer raw time signals X-axis
- 48) BodyAcc.std...Y            	Standard deviation body accelerometer raw time signals Y-axis
- 49) BodyAcc.std...Z             Standard deviation body accelerometer raw time signals Z-axis
- 50) GravityAcc.std...X 		Standard deviation gravity accelerometer raw time signals X-axis
- 51) GravityAcc.std...Y          Standard deviation accelerometer raw time signals Y-axis
- 52) GravityAcc.std...Z          Standard deviation accelerometer raw time signals Z-axis
- 53) BodyAccJerk.std...X 	Standard deviation accelerometer jerk time signals X-axis
- 54) BodyAccJerk.std...Y         Standard deviation accelerometer jerk time signals X-axis
- 55) BodyAccJerk.std...Z         Standard deviation accelerometer jerk time signals X-axis
- 56) BodyGyro.std...X            Standard deviation gyroscope time signals X-axis
- 57) BodyGyro.std...Y            Standard deviation gyroscope time signals Y-axis
- 58) BodyGyro.std...Z            Standard deviation gyroscope time signals Z-axis
- 59) BodyGyroJerk.std...X 	Standard deviation body gyroscope jerk time signals X-axis
- 60) BodyGyroJerk.std...Y        Standard deviation body gyroscope jerk time signals Y-axis
- 61) BodyGyroJerk.std...Z        Standard deviation body gyroscope jerk time signals Z-axis
- 62) BodyAccMag.std.. 		Standard deviation body accelerometer magnitude of 3-dimensional time signals using Euclidian norm
- 63) GravityAccMag.std..         Standard deviation gravity accelerometer magnitude of 3-dimensional time signals using Euclidian norm
- 64) BodyAccJerkMag.std..        Standard deviation body accelerometer magnitude of 3-dimensional jerk time signals using Euclidian norm		
- 65) BodyGyroMag.std..           Standard deviation body gyroscope magnitude of 3-dimensional time signals using Euclidian norm
- 66) BodyGyroJerkMag.std..       Standard deviation body gyroscope magnitude of 3-dimensional jerk time signals using Euclidian norm
- 67) BodyAcc.std...X.1 		Standard deviation body accelerometer raw FFT signals X-axis
- 68) BodyAcc.std...Y.1           Standard deviation body accelerometer raw FFT signals Y-axis
- 69) BodyAcc.std...Z.1           Standard deviation body accelerometer raw FFT signals Z-axis
- 70) BodyAccJerk.std...X.1 	Standard deviation body accelerometer raw jerk FFT signals X-axis
- 71) BodyAccJerk.std...Y.1       Standard deviation body accelerometer raw jerk FFT signals Y-axis
- 72) BodyAccJerk.std...Z.1       Standard deviation body accelerometer raw jerk FFT signals Z-axis
- 73) BodyGyro.std...X.1 		Standard deviation gyroscope FFT signals X-axis
- 74) BodyGyro.std...Y.1          Standard deviation gyroscope FFT signals Y-axis
- 75) BodyGyro.std...Z.1          Standard deviation gyroscope FFT signals Z-axis
- 76) BodyAccMag.std...1 		Standard deviation body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
- 77) BodyBodyAccJerkMag.std.. 	Standard deviation body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm	 78) BodyBodyGyroMag.std..Standard deviation body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
- 79) BodyBodyGyroJerkMag.std.. 	 Standard deviation body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm	
+ 1. BodyAcc.mean...X 		Mean value body accelerometer raw time signals X-axis
+ 2. BodyAcc.mean...Y 		Mean value body accelerometer raw time signals Y-axis
+ 3. BodyAcc.mean...Z 		Mean value body accelerometer raw time signals Z-axis
+ 4. GravityAcc.mean...X 	Mean value gravity accelerometer raw time signals X-axis
+ 5. GravityAcc.mean...Y         Mean value gravity accelerometer raw time signals Y-axis
+ 6. GravityAcc.mean...Z         Mean value gravity accelerometer raw time signals Z-axis
+ 7. BodyAccJerk.mean...X 	Mean value body accelerometer jerk time signals X-axis
+ 8. BodyAccJerk.mean...Y 	Mean value body accelerometer jerk time signals X-axis
+ 9. BodyAccJerk.mean...Z 	Mean value body accelerometer jerk time signals X-axis
+ 10. BodyGyro.mean...X 		Mean value body gyroscope time signals X-axis
+ 11. BodyGyro.mean...Y 		Mean value body gyroscope time signals Y-axis
+ 12. BodyGyro.mean...Z 		Mean value body gyroscope time signals Z-axis
+ 13. BodyGyroJerk.mean...X 	Mean value body gyroscope jerk time signals X-axis
+ 14. BodyGyroJerk.mean...Y       Mean value body gyroscope jerk time signals Y-axis
+ 15. BodyGyroJerk.mean...Z       Mean value body gyroscope jerk time signals Z-axis
+ 16. BodyAccMag.mean.. 		Mean value body accelerometer magnitude of 3-dimensional time signals using Euclidian norm
+ 17. GravityAccMag.mean.. 	Mean value gravity accelerometer magnitude of 3-dimensional time signals using Euclidian norm
+ 18. BodyAccJerkMag.mean.. 	Mean value body accelerometer magnitude of 3-dimensional jerk time signals using Euclidian norm		
+ 19. BodyGyroMag.mean.. 		Mean value body gyroscope magnitude of 3-dimensional time signals using Euclidian norm
+ 20. BodyGyroJerkMag.mean.. 	Mean value body gyroscope magnitude of 3-dimensional jerk time signals using Euclidian norm
+ 21. BodyAcc.mean...X.1 		Mean value body accelerometer raw Fast Fourier Transform (FFT. signals X-axis
+ 22. BodyAcc.mean...Y.1          Mean value body accelerometer raw Fast Fourier Transform (FFT. signals Y-axis
+ 23. BodyAcc.mean...Z.1          Mean value body accelerometer raw Fast Fourier Transform (FFT. signals Z-axis
+ 24. BodyAcc.meanFreq...X 	Mean fequency body accelerometer raw FFT signals X-axis
+ 25. BodyAcc.meanFreq...Y 	Mean fequency body accelerometer raw FFT signals Y-axis
+ 26. BodyAcc.meanFreq...Z 	Mean fequency body accelerometer raw FFT signals Z-axis
+ 27. BodyAccJerk.mean...X.1 	Mean value body accelerometer jerk FFT signals X-axis
+ 28. BodyAccJerk.mean...Y.1      Mean value body accelerometer jerk FFT signals X-axis
+ 29. BodyAccJerk.mean...Z.1     	Mean value body accelerometer jerk FFT signals X-axis
+ 30. BodyAccJerk.meanFreq...X 	Mean fequency body accelerometer raw jerk FFT signals X-axis
+ 31. BodyAccJerk.meanFreq...Y    Mean fequency body accelerometer raw jerk FFT signals Y-axis
+ 32. BodyAccJerk.meanFreq...Z    Mean fequency body accelerometer raw jerk FFT signals Z-axis
+ 33. BodyGyro.mean...X.1 	Mean value body gyroscope FFT signals X-axis
+ 34. BodyGyro.mean...Y.1        	Mean value body gyroscope FFT signals Y-axis
+ 35. BodyGyro.mean...Z.1        	Mean value body gyroscope FFT signals Z-axis
+ 36. BodyGyro.meanFreq...X 	Mean fequency body gyroscope raw FFT signals X-axis
+ 37. BodyGyro.meanFreq...Y       Mean fequency body gyroscope raw FFT signals Y-axis
+ 38. BodyGyro.meanFreq...Z       Mean fequency body gyroscope raw FFT signals Z-axis
+ 39. BodyAccMag.mean...1 	Mean value body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
+ 40. BodyAccMag.meanFreq.. 	Mean frequency body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
+ 41. BodyBodyAccJerkMag.mean.. 	Mean value body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm
+ 42. BodyBodyAccJerkMag.meanFreq.. Mean frequency body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm
+ 43. BodyBodyGyroMag.mean.. 	Mean value body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
+ 44. BodyBodyGyroMag.meanFreq..  Mean frequency body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
+ 45. BodyBodyGyroJerkMag.mean..  Mean value body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm
+ 46. BodyBodyGyroJerkMag.meanFreq. Mean frequency body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm.. 
+ 47. BodyAcc.std...X 		Standard deviation body accelerometer raw time signals X-axis
+ 48. BodyAcc.std...Y            	Standard deviation body accelerometer raw time signals Y-axis
+ 49. BodyAcc.std...Z             Standard deviation body accelerometer raw time signals Z-axis
+ 50. GravityAcc.std...X 		Standard deviation gravity accelerometer raw time signals X-axis
+ 51. GravityAcc.std...Y          Standard deviation accelerometer raw time signals Y-axis
+ 52. GravityAcc.std...Z          Standard deviation accelerometer raw time signals Z-axis
+ 53. BodyAccJerk.std...X 	Standard deviation accelerometer jerk time signals X-axis
+ 54. BodyAccJerk.std...Y         Standard deviation accelerometer jerk time signals X-axis
+ 55. BodyAccJerk.std...Z         Standard deviation accelerometer jerk time signals X-axis
+ 56. BodyGyro.std...X            Standard deviation gyroscope time signals X-axis
+ 57. BodyGyro.std...Y            Standard deviation gyroscope time signals Y-axis
+ 58. BodyGyro.std...Z            Standard deviation gyroscope time signals Z-axis
+ 59. BodyGyroJerk.std...X 	Standard deviation body gyroscope jerk time signals X-axis
+ 60. BodyGyroJerk.std...Y        Standard deviation body gyroscope jerk time signals Y-axis
+ 61. BodyGyroJerk.std...Z        Standard deviation body gyroscope jerk time signals Z-axis
+ 62. BodyAccMag.std.. 		Standard deviation body accelerometer magnitude of 3-dimensional time signals using Euclidian norm
+ 63. GravityAccMag.std..         Standard deviation gravity accelerometer magnitude of 3-dimensional time signals using Euclidian norm
+ 64. BodyAccJerkMag.std..        Standard deviation body accelerometer magnitude of 3-dimensional jerk time signals using Euclidian norm		
+ 65. BodyGyroMag.std..           Standard deviation body gyroscope magnitude of 3-dimensional time signals using Euclidian norm
+ 66. BodyGyroJerkMag.std..       Standard deviation body gyroscope magnitude of 3-dimensional jerk time signals using Euclidian norm
+ 67. BodyAcc.std...X.1 		Standard deviation body accelerometer raw FFT signals X-axis
+ 68. BodyAcc.std...Y.1           Standard deviation body accelerometer raw FFT signals Y-axis
+ 69. BodyAcc.std...Z.1           Standard deviation body accelerometer raw FFT signals Z-axis
+ 70. BodyAccJerk.std...X.1 	Standard deviation body accelerometer raw jerk FFT signals X-axis
+ 71. BodyAccJerk.std...Y.1       Standard deviation body accelerometer raw jerk FFT signals Y-axis
+ 72. BodyAccJerk.std...Z.1       Standard deviation body accelerometer raw jerk FFT signals Z-axis
+ 73. BodyGyro.std...X.1 		Standard deviation gyroscope FFT signals X-axis
+ 74. BodyGyro.std...Y.1          Standard deviation gyroscope FFT signals Y-axis
+ 75. BodyGyro.std...Z.1          Standard deviation gyroscope FFT signals Z-axis
+ 76. BodyAccMag.std...1 		Standard deviation body accelerometer magnitude of 3-dimensional FFT signals using Euclidian norm
+ 77. BodyBodyAccJerkMag.std.. 	Standard deviation body accelerometer magnitude of 3-dimensional jerk FFT signals using Euclidian norm	 78. BodyBodyGyroMag.std..Standard deviation body gyroscope magnitude of 3-dimensional FFT signals using Euclidian norm
+ 79. BodyBodyGyroJerkMag.std.. 	 Standard deviation body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm	
