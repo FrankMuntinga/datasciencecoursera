@@ -4,9 +4,9 @@ author: "Frank Muntinga"
 date: "Sunday, January 25, 2015"
 output: html_document
 ---
-### Definitions
+## Definitions
 
-## Activity
+### Activity
 
 1. Activity.id        		Identifier of the Activity which was measured
 2. Activity			Description of the actvity which was measured
@@ -18,11 +18,11 @@ ID 4 = 	SITTING
 ID 5 = 	STANDING
 ID 6 = 	LAYING
 
-## Subject
+### Subject
 
 1. Subject 		Identifier of the person from whom's mobile phone data was collected during the test of train measurements.
 
-## Measurements
+### Measurements
  
  1. BodyAcc.mean...X 		Mean value body accelerometer raw time signals X-axis in g/sec
  2. BodyAcc.mean...Y 		Mean value body accelerometer raw time signals Y-axis in g/sec
@@ -104,7 +104,7 @@ ID 6 = 	LAYING
  79. BodyBodyGyroJerkMag.std.. 	Standard deviation body gyroscope magnitude of 3-dimensional jerk FFT signals using Euclidian norm in rad/sec	
 
 
-### Transformations
+## Transformations
 
 * Get the data from the Web, unzip and store it in a working directory.
 * Create dataframes for all the files needed in the analysis.
