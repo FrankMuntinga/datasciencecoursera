@@ -11,12 +11,12 @@ output: html_document
 1. Activity.id        		Identifier of the Activity which was measured
 2. Activity			Description of the actvity which was measured
 
-ID 1 =	WALKING
-ID 2 =	WALKING_UPSTAIRS
-ID 3 = 	WALKING_DOWNSTAIRS
-ID 4 = 	SITTING
-ID 5 = 	STANDING
-ID 6 = 	LAYING
+* ID 1 = WALKING
+* ID 2 = WALKING_UPSTAIRS
+* ID 3 = WALKING_DOWNSTAIRS
+* ID 4 = SITTING
+* ID 5 = STANDING
+* ID 6 = LAYING
 
 ### Subject
 
